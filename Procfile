@@ -1,1 +1,1 @@
-web: gunicorn dukkainic.wsgi
+web: gunicorn sloovi_crud.wsgi
