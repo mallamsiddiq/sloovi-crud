@@ -5,7 +5,7 @@ from .serializers import UserSerializer, TemplateSerializer
 from .models import User, Template
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 
-class RegisterView(generics.CreateAPIView):
+class RegisterView(generics.ListCreateAPIView):
     # http_method_names = ['post']
     queryset = User.objects.all()
     serializer_class = UserSerializer

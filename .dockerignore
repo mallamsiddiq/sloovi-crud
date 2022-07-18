@@ -6,4 +6,4 @@ dukenv
 .gitignore
 scripts.py 
 media
-dukenv
+appenv
