@@ -82,20 +82,20 @@ WSGI_APPLICATION = 'sloovi_crud.wsgi.application'
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'sloovi-test-db',
-        'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            # 'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/?retryWrites=true&w=majority'
-            'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/?retryWrites=true&w=majority'
-            # 'host': 'mongodb+srv://<username>:<password>@<atlas cluster>/<myFirstDatabase>?retryWrites=true&w=majority'
-            # 'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/sloovi-test-db?retryWrites=true&w=majority',
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'djongo',
+#         'NAME': 'sloovi-test-db',
+#         'ENFORCE_SCHEMA': False,
+#         'CLIENT': {
+#             # 'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/?retryWrites=true&w=majority'
+#             'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/?retryWrites=true&w=majority'
+#             # 'host': 'mongodb+srv://<username>:<password>@<atlas cluster>/<myFirstDatabase>?retryWrites=true&w=majority'
+#             # 'host': 'mongodb+srv://nutfa:abcde@cluster0.y21puiv.mongodb.net/sloovi-test-db?retryWrites=true&w=majority',
 
-        }  
-    }
-}
+#         }  
+#     }
+# }
 
 
 AUTH_PASSWORD_VALIDATORS = [
