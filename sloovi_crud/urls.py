@@ -12,7 +12,7 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="a test API to perform CRUD operation on templtes",
+      title="a test API to perform CRUD operation on templates",
       default_version='v1',
       description="""An API built to register users, 
       provide login endpoint to get authentication token to access templates and view personal user details, 

@@ -9,11 +9,11 @@ https://sloovi-sodiq.herokuapp.com/users support a get request to fetch your det
 
 ## running loclly
 
-This app is built as a docker image for ease of environment conflicts. with docker installed kidly
+This app is built as a docker image for ease of environment conflicts. with docker and docker compose installed up and running, kidly run:
 
 		docker-compose up --build
 
-And boom you have your app on port :5000
+wait for some moment to configure dependencies And boom!! you have your app on port :5000
 
 ### without docker
 
@@ -35,7 +35,7 @@ and boom!! again you have your app on port :5000. all navigation is as described
   
 # Note:
 
-For the sake of this assessment and third party testing, I have created a test user and database called sloovi and sloovi-test-db respectively and exposed environment variables. freely play around with this api
+For the sake of this assessment and third party testing and interactions, I have created a test user and database called sloovi and sloovi-test-db respectively and exposed environment variables. freely play around with this api
 
   
 For further enquiry : i am available @mallamsiddiq@gmail.com or https://www.linkedin.com/in/nutfa/ 
