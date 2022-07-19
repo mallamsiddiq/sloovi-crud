@@ -25,17 +25,17 @@ kindly run:
 
 		python manage.py migrate
 
-		python manage.py runserver 0.0.0.0:8000
+		python manage.py runserver 0.0.0.0:5000
 
 or at once run:
 
-		pip install -r requirements.txt && python manage.py migrate && python manage.py runserver 0.0.0.0:8000
+		pip install -r requirements.txt && python manage.py migrate && python manage.py runserver 0.0.0.0:5000
 
 and boom!! again you have your app on port :5000. all navigation is as described in the navigation headline, just replace https://sloovi-sodiq.herokuapp.com http://localhost/5000 and you’re good to go.
   
 # Note:
 
-For the sake of this assessment and third party testing, I have created a test user and database called sloovi and sloovi-test-db respectively and exposed environment variables. freely playing around with api
+For the sake of this assessment and third party testing, I have created a test user and database called sloovi and sloovi-test-db respectively and exposed environment variables. freely play around with this api
 
   
 For further enquiry : i am available @mallamsiddiq@gmail.com or https://www.linkedin.com/in/nutfa/ 
