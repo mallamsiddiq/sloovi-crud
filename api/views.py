@@ -64,6 +64,6 @@ class UserDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     def get_queryset(self):
         if str(self.request.user.id) != self.kwargs['user_id']:
-            raise AuthenticationFailed(f"hey {self.request.user.email} ;   you re unauthorised to interact with this user's comtent, login aappropitately and provide your id. thanks")
+            raise AuthenticationFailed(f"hey!! dear {self.request.user.email} ;   you re unauthorised to interact with this user's content, login aappropitately and provide your id. thanks")
         return User.objects.filter(id=self.kwargs['user_id'])
 
