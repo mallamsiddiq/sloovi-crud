@@ -4,4 +4,4 @@ appenv/
 media/
 staticfiles/
 scripts.py
-.pyc
+# .pyc
