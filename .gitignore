@@ -6,3 +6,5 @@ appenv/
 media/
 staticfiles/
 scripts.py
+.env
+.gitignore
