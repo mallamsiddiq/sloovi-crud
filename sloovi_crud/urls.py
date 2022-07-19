@@ -12,9 +12,11 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Receipt Generator API",
+      title="a test API to perform CRUD operation on templtes",
       default_version='v1',
-      description="An API built to generate recipts for every transactionS made and expose it to an endpoint for authorised client to play with",
+      description="""An API built to register users, 
+      provide login endpoint to get authentication token to access templates and view personal user details, 
+      play around with this apis found each endpoin below""",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="mallamsiddiq@gmail.com"),
       license=openapi.License(name="Sloovi License"),
