@@ -5,5 +5,5 @@ appenv/
 media/
 staticfiles/
 scripts.py
-# .env
+.env
 myenv/
