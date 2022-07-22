@@ -35,9 +35,6 @@ and boom!! again you have your app on port :5000. all navigation is as described
   
 # Note:
 
-For the sake of this assessment and third party testing and interactions, I have created a test user and database called sloovi and sloovi-test-db respectively and exposed environment variables. freely play around with this api
-
-  
 For further enquiry : i am available @mallamsiddiq@gmail.com or https://www.linkedin.com/in/nutfa/ 
 
 thanks 
